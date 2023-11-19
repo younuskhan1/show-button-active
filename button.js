@@ -16,8 +16,11 @@
 // I modify the above system at my own system.
 
 const buttons = document.getElementsByClassName("button-active");
+// For first time I am running loop on buttons to add EventListener to each button 
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
+        // For second time I am running loop on same buttons to remove and add 
+        // the active class. 
         for (let btn of buttons) {
             // At first I removed the active class dynamically from 
             // all buttons which we got through loop.
