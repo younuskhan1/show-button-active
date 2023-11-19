@@ -6,7 +6,7 @@
 
 
 .buttons-parent {
-    width: 100%;
+    width: auto;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -44,8 +44,20 @@
     transition: box-shadow .2s;
 }
 
+/* the below :active is pseudo attribute like
+hover, focus and others */
+
 .button-active:active {
     background-color: #F7F7F7;
     border-color: #000000;
     transform: scale(.96);
+}
+
+/* the below active class will be added to 
+the html file dynamically in javascript file */
+
+.active,
+.button-active:hover {
+    background-color: red;
+    color: white;
 }
