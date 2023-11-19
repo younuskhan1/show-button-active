@@ -54,7 +54,9 @@ hover, focus and others */
 }
 
 /* the below active class will be added to 
-the html file dynamically in javascript file */
+the html file dynamically in javascript file.
+Basically the below active class is
+main to show the button active  */
 
 .active,
 .button-active:hover {

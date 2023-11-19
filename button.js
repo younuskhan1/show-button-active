@@ -23,10 +23,12 @@ for (let button of buttons) {
             // all buttons which we got through loop.
             btn.classList.remove("active");
             // At second we add the active class to the specific button on which we clicked 
-            // by using this keyword. 
+            // by using this keyword.We are using this keyword to get the 
+            // currently clicked button element
             this.classList.add("active");
         }
-        console.log(event.target);
+        const targetButton = event.target;
+        console.log(targetButton);
     })
 }
 
