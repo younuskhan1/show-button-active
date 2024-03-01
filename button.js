@@ -46,8 +46,13 @@ for (let button of buttons) {
 // for (let i = 0; i < buttons.length; i++) {
 //     buttons[i].addEventListener("click", () => {
 //       buttons.forEach((button) => {
+//         removing the previously added or by default added active class from 
+//         previously clicked element. 
 //         button.classList.remove("active");
 //       });
+//       we will add the active class to clicked element and we will target the 
+//       clicked element by index number [i];
+//       after removing, newly added active class to the newly clicked element
 //       buttons[i].classList.add("active");
 //     });
 // }
