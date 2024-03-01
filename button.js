@@ -51,7 +51,7 @@ for (let button of buttons) {
 //         button.classList.remove("active");
 //       });
 //       we will add the active class to clicked element and we will target the 
-//       clicked element by index number [i];
+//       clicked element by looping index number [i];
 //       after removing, newly added active class to the newly clicked element
 //       buttons[i].classList.add("active");
 //     });
