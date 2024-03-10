@@ -59,8 +59,8 @@ for (let button of buttons) {
 
 
 
-// Third rule: show active button which got from fake data/API and tailwind css 
-// Third rule is implemented at dragon-news-tailwind-done-by-me project at my github.
+// Third rule: show active button which got dynamically from fake data/API and tailwind css 
+// Third rule is implemented at "dragon-news-tailwind-done-by-me" project at my github.
 
 // let button_list = document.querySelectorAll(".category-button");
 //         button_list.forEach(element=>{
