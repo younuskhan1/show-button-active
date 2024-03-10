@@ -56,3 +56,20 @@ for (let button of buttons) {
 //       buttons[i].classList.add("active");
 //     });
 // }
+
+
+
+// Third rule: show active button which got from fake data/API and tailwind css 
+// Third rule is implemented at dragon-news-tailwind-done-by-me project at my github.
+
+// let button_list = document.querySelectorAll(".category-button");
+//         button_list.forEach(element=>{
+//             element.addEventListener("click",function(){
+//             button_list.forEach(remove_background=>{
+//             remove_background.style.color="#000000";
+//             remove_background.style.background="#ECECEC";
+//             });
+//             this.style.color="#FFFFFF";
+//             this.style.background="#000000";
+//         });
+//      });
